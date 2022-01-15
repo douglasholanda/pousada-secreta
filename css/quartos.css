@@ -1,0 +1,44 @@
+* { box-sizing: border-box;}
+
+.island-img{
+    background-image: url(../assets/img-fundo.jpg);
+    background-size: cover;
+    height: 180px;
+}
+
+.container-images{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.container-images img{
+    width: 25%;
+    height: 215px;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.container-images-info{
+    color: #514f5d;
+    margin: 70px 0;
+}
+
+.container-images-info h3{
+    text-align: center;
+}
+
+.container-images-info ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-images-info li{
+    width: 25%;
+    text-align: left;
+}
